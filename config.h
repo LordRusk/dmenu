@@ -24,6 +24,8 @@ static const unsigned int alphas[SchemeLast][2] = {
 	[SchemeNorm] = { fgalpha, bgalpha },
 	[SchemeSel] = { fgalpha, bgalpha },
 	[SchemeOut] = { fgalpha, bgalpha },
+	[SchemeSelHighlight] = { fgalpha, bgalpha },
+	[SchemeNormHighlight] = { fgalpha, bgalpha },
 };
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
