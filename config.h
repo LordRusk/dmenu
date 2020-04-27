@@ -8,6 +8,8 @@ static const char *fonts[] = {
 	"monospace:size=10",
 	"JoyPixels:size=10",
 };
+static const unsigned int bgalpha = OPAQUE;
+static const unsigned int fgalpha = OPAQUE;
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
@@ -17,6 +19,13 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeNormHighlight] = { "#D22021", "#222222" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
+static const unsigned int alphas[SchemeLast][2] = {
+	/*		fgalpha		bgalphga	*/
+	[SchemeNorm] = { fgalpha, bgalpha },
+	[SchemeSel] = { fgalpha, bgalpha },
+	[SchemeOut] = { fgalpha, bgalpha },
+};
+
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
 

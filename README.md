@@ -6,6 +6,7 @@ This is my build of dmenu that fits with my dwm color scheme.
 
 + **FuzzyFinder** - A better search method
 + **FuzzyMatch** - To go with fuzzyfinder (grey+red color scheme used in my dwm build)
++ **Alpha** - Alpha patch to allow dmenu to be embedded in semi/fully transparent windows
 
 ## Notes on Emojis and Special Characters
 
