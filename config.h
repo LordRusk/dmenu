@@ -7,6 +7,7 @@ static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't us
 static const char *fonts[] = {
 	"monospace:size=10",
 	"JoyPixels:size=10",
+	"Font Awesome:size=10",
 };
 static const unsigned int bgalpha = OPAQUE;
 static const unsigned int fgalpha = OPAQUE;
